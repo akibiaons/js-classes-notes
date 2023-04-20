@@ -45,3 +45,26 @@ class Surgeon {
     const surgeonJackson = new Surgeon('Ruth Jackson', 'Orthopedics');
 // End of lesson 3: Instances
 //============================================================================================================================
+// Start of Lesson 4: Methods
+    // Below is an example of a Dog class woth name & behavior properties. We will add getters to bring it to life.
+
+    class Dog {
+        constructor(name) {
+        this._name = name;
+        this._behavior = 0;
+        }
+    
+        get name() {
+        return this._name;
+        }
+    
+        get behavior() {
+        return this._behavior;
+        }
+    
+        incrementBehavior() {
+        this._behavior++;
+        }
+    }
+
+    // End of the example ========================
