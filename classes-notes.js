@@ -253,3 +253,7 @@ class Animal2 {
     - Below the .generateName() method is called:
     */
    console.log(Animal3.generateName()); // This will return a name in the console.
+// The .generate() name method can not be accessed from the Animal class or its subclasses.
+    /*  const tyson = new Animal3('Tyson'); 
+        tyson.generateName(); // TypeError
+    */
