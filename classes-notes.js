@@ -152,3 +152,28 @@ class Cat {
     }
   }
 // above is the example of a cat class for the doggy daycare example.  
+/* 
+- When multilpe classes share properties and methods they become canidates for inheritance. With inheritance there are parent classes
+and multiple child classes. 
+
+- Here is an example of a parent class called animal... 
+*/
+class Animal {
+    constructor(name) {
+      this._name = name;
+      this._behavior = 0;
+    }
+   
+    get name() {
+      return this._name;
+    }
+   
+    get behavior() {
+      return this._behavior;
+    }   
+   
+    incrementBehavior() {
+      this._behavior++;
+    }
+  } 
+  
