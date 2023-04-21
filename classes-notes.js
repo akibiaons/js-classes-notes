@@ -245,3 +245,9 @@ class Animal {
           return names[randomNumber];
         }
       }      
+
+    /* Above we create a static method called .generateName() that returns a random name when called 
+        because of the static keyword, .generateName() can only be accessed by appending it to the 
+        Animal class.
+    */
+    
