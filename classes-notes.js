@@ -92,3 +92,34 @@ const surgeonRomero2 = new Surgeon('Francisco Romero', 'Cardiovascular');
 const surgeonJackson2 = new Surgeon('Ruth Jackson', 'Orthopedics');
 
     // End of the example ========================
+// End of lesson 4: Methods
+//================================================================================================================================================================================================
+// Start of Lesson 5: Method Calls
+// The code from example 4 will be used as reference.
+class Dog {
+    constructor(name) {
+      this._name = name;
+      this._behavior = 0;
+    }
+   
+    get name() {
+      return this._name;
+    }
+   
+    get behavior() {
+      return this._behavior;
+    }   
+   
+    incrementBehavior() {
+      this._behavior++;
+    }
+  }
+   
+  const halley2 = new Dog('Halley');
+// Above we create the dog class, then create an instance and save it to a variable named Halley
+// I will create two new Dog instances and call the .incrementBehavior method on one of them.
+let nikko = new Dog('Nikko'); // Create dog named Nikko
+nikko.incrementBehavior(); // Add 1 to nikko instance's behavior
+let bradford = new Dog('Bradford'); // Create dog name Bradford
+console.log(nikko.behavior); // Logs 1 to the console
+console.log(bradford.behavior); // Logs 0 to the console
