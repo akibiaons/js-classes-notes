@@ -175,5 +175,26 @@ class Animal {
     incrementBehavior() {
       this._behavior++;
     }
-  } 
-  
+  }
+// In the above examples, the Animal class contains the properties and methods that the Cat and Dog classes share, such as (name, behavior, and .incrementBehavior()).
+// End of the lesson: Inheritance I
+//================================================================================================================================
+// start of lesson 7: Inheritance II
+class Animal {
+    constructor(name) {
+      this._name = name;
+      this._behavior = 0;
+    }
+   
+    get name() {
+      return this._name;
+    }
+   
+    get behavior() {
+      return this._behavior;
+    }   
+   
+    incrementBehavior() {
+      this._behavior++;
+    }
+  }   
