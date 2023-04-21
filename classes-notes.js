@@ -222,4 +222,3 @@ class Animal {
       this._behavior++;
     }
   }
-  
