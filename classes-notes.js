@@ -116,10 +116,10 @@ class Dog {
   }
    
   const halley2 = new Dog('Halley');
-// Above we create the dog class, then create an instance and save it to a variable named Halley
-// I will create two new Dog instances and call the .incrementBehavior method on one of them.
-let nikko = new Dog('Nikko'); // Create dog named Nikko
-nikko.incrementBehavior(); // Add 1 to nikko instance's behavior
-let bradford = new Dog('Bradford'); // Create dog name Bradford
-console.log(nikko.behavior); // Logs 1 to the console
-console.log(bradford.behavior); // Logs 0 to the console
+    // Above we create the dog class, then create an instance and save it to a variable named Halley
+    // I will create two new Dog instances and call the .incrementBehavior method on one of them.
+    let nikko = new Dog('Nikko'); // Create dog named Nikko
+    nikko.incrementBehavior(); // Add 1 to nikko instance's behavior
+    let bradford = new Dog('Bradford'); // Create dog name Bradford
+    console.log(nikko.behavior); // Logs 1 to the console
+    console.log(bradford.behavior); // Logs 0 to the console
