@@ -222,3 +222,26 @@ class Animal {
       this._behavior++;
     }
   }
+// end of lesson 7 Inheritence II
+//================================================================================================================================
+// Start of lessson 8: Static methods
+  /*
+    - There will be times when you want a class to have methods that aren't avaliable in individual instances.
+    but can be called directly from the class.
+
+    - The Date class is a prime example of this. Date.now() will return the current date directly form the class.
+
+    - Below we will create a static keyword to create a static method called 
+  */
+    class Animal {
+        constructor(name) {
+          this._name = name;
+          this._behavior = 0;
+        }
+       
+        static generateName() {
+          const names = ['Angel', 'Spike', 'Buffy', 'Willow', 'Tara'];
+          const randomNumber = Math.floor(Math.random()*5);
+          return names[randomNumber];
+        }
+      }      
