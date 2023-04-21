@@ -123,3 +123,5 @@ class Dog {
     let bradford = new Dog('Bradford'); // Create dog name Bradford
     console.log(nikko.behavior); // Logs 1 to the console
     console.log(bradford.behavior); // Logs 0 to the console
+
+// In the example aboce I create two dog instances callled Nikko and Bradford. Nikko instance increments but Bradford's does not, which will be show upon calling the behavior method..
