@@ -198,3 +198,28 @@ class Animal {
       this._behavior++;
     }
   }   
+// the code below will show that the cat class is inheriting info from the Animal class...
+  class Cat {
+    constructor(name, usesLitter) {
+      this._name = name;
+      this._usesLitter = usesLitter;
+      this._behavior = 0;
+    }
+   
+    get name() {
+      return this._name;
+    }
+   
+    get behavior() {
+      return this._behavior;
+    }
+   
+    get usesLitter() {
+      return this._usesLitter;
+    }
+   
+    incrementBehavior() {
+      this._behavior++;
+    }
+  }
+  
