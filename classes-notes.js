@@ -125,3 +125,30 @@ class Dog {
     console.log(bradford.behavior); // Logs 0 to the console
 
 // In the example aboce I create two dog instances callled Nikko and Bradford. Nikko instance increments but Bradford's does not, which will be show upon calling the behavior method..
+//End of example 5: Method Calls
+//================================================================================================================================================================================================
+// Start of exmaple 6: Inheritance I
+class Cat {
+    constructor(name, usesLitter) {
+      this._name = name;
+      this._usesLitter = usesLitter;
+      this._behavior = 0;
+    }
+   
+    get name() {
+      return this._name;
+    }
+   
+    get usesLitter() {
+      return this._usesLitter;
+    }
+   
+    get behavior() {
+      return this._behavior;
+    }  
+   
+    incrementBehavior() {
+      this._behavior++;
+    }
+  }
+// above is the example of a cat class for the doggy daycare example.  
